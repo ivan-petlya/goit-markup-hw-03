@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="CSS/slyles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,158 +19,173 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Home_work_2</title>
+    <title>Home_work_3</title>
   </head>
   <body>
     <!--header-->
-    <header class="header">
-      <a class="text-logo" href="./index.html">
-        Web<span class="black-color">Studio</span>
-      </a>
-      <nav>
-        <ul class="navigate list">
-          <li><a href="./index.html" class="active">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#contacts">Контакты</a></li>
+    <header>
+      <div class="main-nav container">
+        <a class="text-logo" href="./index.html">
+          Web<span class="black-color">Studio</span>
+        </a>
+        <nav>
+          <ul class="navigate list">
+            <li><a href="./index.html" class="active">Студия</a></li>
+            <li><a href="./portfolio.html" >Портфолио</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact list header-contact">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contact list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!--block with button-->
-      <section class="section-main">
-        <h1 class="section-main">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="button" type="button">Заказать услугу</button>
+      <section class="section section-main">
+        <div class="container">
+          <h1>
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="main-button" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!--difference-->
-      <section class="section-difference">
-        <h2>наши особенности</h2>
-        <ul class="list">
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="section section-difference">
+        <div class="container">
+          <h2 class="visually-hidden">наши особенности</h2>
+          <ul class="list list-difference">
+            <li class="item">
+              <h3>Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <h3>Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <h3>Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <h3>Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2 class="section-header">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="images/coding.jpg"
-              alt="coding"
-              height="295"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="images/mobile-dev.jpg"
-              height="295"
-              width="370"
-              alt="mobile develop"
-            />
-          </li>
-          <li>
-            <img
-              src="images/color-palet.jpg "
-              height="295"
-              width="370"
-              alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
-            />
-          </li>
-        </ul>
+      <section class="section what-are-we-doing-section">
+        <div class="container">
+          <h2 class="section-header">Чем мы занимаемся</h2>
+          <ul class="what-are-we-doing-list list">
+            <li class="item">
+              <img
+                src="images/coding.jpg"
+                alt="coding"
+                height="295"
+                width="370"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="images/mobile-dev.jpg"
+                height="295"
+                width="370"
+                alt="mobile develop"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="images/color-palet.jpg "
+                height="295"
+                width="370"
+                alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--team-->
-      <section class="section-team">
-        <h2 class="section-header">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="images/igor_demjanenko.jpg"
-              height="260"
-              width="270"
-              alt="demjanenko.jpg"
-            />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="images/olga_repina.jpg"
-              height="260"
-              width="270"
-              alt="olga_repina"
-            />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="images/nikolay_tarasov.jpg"
-              height="260"
-              width="270"
-              alt="nikolay_tarasov"
-            />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/mihail_ermakov.jpg"
-              height="260"
-              width="270"
-              alt="mihail_ermakov"
-            />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section section-team">
+        <div class="container">
+          <h2 class="section-header">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="item">
+              <img
+                src="images/igor_demjanenko.jpg"
+                height="260"
+                width="270"
+                alt="demjanenko.jpg"
+              />
+              <h3>Игорь Демьяненко</h3>
+              <p lang="en">Product Designer</p>
+            </li>
+            <li class="item">
+              <img
+                src="images/olga_repina.jpg"
+                height="260"
+                width="270"
+                alt="olga_repina"
+              />
+              <h3>Ольга Репина</h3>
+              <p lang="en">Frontend Developer</p>
+            </li class="item">
+            <li>
+              <img
+                src="images/nikolay_tarasov.jpg"
+                height="260"
+                width="270"
+                alt="nikolay_tarasov"
+              />
+              <h3>Николай Тарасов</h3>
+              <p lang="en">Marketing</p>
+            </li>
+            <li class="item">
+              <img
+                src="images/mihail_ermakov.jpg"
+                height="260"
+                width="270"
+                alt="mihail_ermakov"
+              />
+              <h3>Михаил Ермаков</h3>
+              <p lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <!--footer-->
+     <!--footer-->
+    <footer >
+           <section class="section-footer">
+      <div class="container footer">
       <a class="text-logo" href="./index.html">
         Web<span class="white-color">Studio</span>
       </a>
       <address class="address">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="contact list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="contact contact-footer list">
+          <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
+    </section>
     </footer>
+  
   </body>
 </html>
