@@ -132,7 +132,6 @@ p {
 }
 .contact a,
 .contact-footer a {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -140,8 +139,12 @@ p {
   text-decoration: none;
   display: block;
 }
+.contact a {
+  color: var(--primary-text-color);
+}
 .contact-footer a {
   padding: inherit;
+  color: var(--contact-text-color);
 }
 .phisical-address {
   margin-bottom: 9px;
@@ -243,9 +246,10 @@ p {
   font-size: 14px;
   display: block;
   text-align: left;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .container .text-logo {
   display: block;
   margin-bottom: 20px;
