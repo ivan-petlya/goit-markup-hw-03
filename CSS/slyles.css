@@ -197,7 +197,6 @@ p {
 
 .section-exapmles img {
   display: block;
-  margin-top: 50px;
 }
 .section-exapmles h2 {
   font-weight: 700;
@@ -219,6 +218,9 @@ p {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+}
+.choose-btn {
+  margin-bottom: 50px;
 }
 .card-list > .item {
   flex-basis: calc((100% / 3)-30px);
