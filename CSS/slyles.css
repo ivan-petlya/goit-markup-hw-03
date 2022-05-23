@@ -190,6 +190,9 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-filter img {
+  display: block;
+}
 .list-filter {
   display: flex;
   justify-content: center;
@@ -198,10 +201,7 @@ p {
   margin-right: 8px;
 }
 
-.section-exapmles img {
-  display: block;
-}
-.section-exapmles h2 {
+.section-filter h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -209,7 +209,7 @@ p {
   text-align: left;
   margin-bottom: 4px;
 }
-.section-exapmles p {
+.section-filter p {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.875;
@@ -230,9 +230,7 @@ p {
   margin-top: 30px;
   margin-left: 30px;
 }
-.card-list h2 {
-  font-size: 18px;
-}
+
 .title-example-text {
   border-bottom: 1px solid var(--examples-border-color);
   border-left: 1px solid var(--examples-border-color);
